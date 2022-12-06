@@ -1,0 +1,36 @@
+// :root {
+//     --PrimaryColor: hsl(199, 100%, 33%);
+//     --SeondaryColor: hsl(187, 85%, 43%);
+//     --gradiendtColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+//     --white-color: hsl(0, 0%, 100%);
+//     --blackColor: hsl(201, 23%, 13%);
+//     --textColor: hsl(240, 65%, 75%);
+//     --whiteColorDream: hsl(0, 0%, 93%,);  
+//     --grayText: rgb(190, 190, 190);
+//     --inputColor: rgb(152, 152, 247);
+//     --bodyColor: rgb(240, 240, 246);
+//     --cardBG: rgb(225, 225, 235);
+//   }
+  .home {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+ 
+  .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(47, 106, 127);
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+  };
+  video {
+    position: absolute;
+  
+  }
+}
