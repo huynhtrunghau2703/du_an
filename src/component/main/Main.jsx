@@ -2,12 +2,12 @@ import React from 'react';
 import './main.css'
 import img from '../../assets/img.jpg'
 import img2 from '../../assets/img(2).jpg'
-// import img3 from '../../assets/img(3).jpg'
-// import img4 from '../../assets/img(4).jpg'
-// import img5 from '../../assets/img(5).jpg'
-// import img6 from '../../assets/img(6).jpg'
-// import img7 from '../../assets/img(7).jpg'
-// import img8 from '../../assets/img(8).jpg'
+import img3 from '../../assets/img(3).jpg'
+import img4 from '../../assets/img(4).jpg'
+import img5 from '../../assets/img(5).jpg'
+import img6 from '../../assets/img(6).jpg'
+import img7 from '../../assets/img(7).jpg'
+import img8 from '../../assets/img(8).jpg'
 // import img9 from '../../assets/img(9).jpg'
 
 
@@ -32,60 +32,60 @@ const Data  = [
         fees: '$500',
         description: 'Ban đang lên kế hoạch cho chuyến du lịch phan thiet tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
     },
-    // {
-    //     id:3,
-    //     imgSrc: img3,
-    //     destTitle: 'nha trang',
-    //     location: 'Viet Nam',
-    //     grade: 'gia cho 1 chuyen du lich ',
-    //     fees: '$700',
-    //     description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
-    // },
-    // {
-    //     id:4,
-    //     imgSrc: img4,
-    //     destTitle: 'nha trang',
-    //     location: 'Viet Nam',
-    //     grade: 'gia cho 1 chuyen du lich ',
-    //     fees: '$700',
-    //     description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
-    // },
-    // {
-    //     id:5,
-    //     imgSrc: img5,
-    //     destTitle: 'nha trang',
-    //     location: 'Viet Nam',
-    //     grade: 'gia cho 1 chuyen du lich ',
-    //     fees: '$700',
-    //     description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
-    // },
-    // {
-    //     id:6,
-    //     imgSrc: img6,
-    //     destTitle: 'nha trang',
-    //     location: 'Viet Nam',
-    //     grade: 'gia cho 1 chuyen du lich ',
-    //     fees: '$700',
-    //     description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
-    // },
-    // {
-    //     id:7,
-    //     imgSrc: img7,
-    //     destTitle: 'nha trang',
-    //     location: 'Viet Nam',
-    //     grade: 'gia cho 1 chuyen du lich ',
-    //     fees: '$700',
-    //     description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
-    // },
-    // {
-    //     id:8,
-    //     imgSrc: img8,
-    //     destTitle: 'nha trang',
-    //     location: 'Viet Nam',
-    //     grade: 'gia cho 1 chuyen du lich ',
-    //     fees: '$700',
-    //     description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
-    // },
+    {
+        id:3,
+        imgSrc: img3,
+        destTitle: 'nha trang',
+        location: 'Viet Nam',
+        grade: 'gia cho 1 chuyen du lich ',
+        fees: '$700',
+        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
+    },
+    {
+        id:4,
+        imgSrc: img4,
+        destTitle: 'nha trang',
+        location: 'Viet Nam',
+        grade: 'gia cho 1 chuyen du lich ',
+        fees: '$700',
+        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
+    },
+    {
+        id:5,
+        imgSrc: img5,
+        destTitle: 'nha trang',
+        location: 'Viet Nam',
+        grade: 'gia cho 1 chuyen du lich ',
+        fees: '$700',
+        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
+    },
+    {
+        id:6,
+        imgSrc: img6,
+        destTitle: 'nha trang',
+        location: 'Viet Nam',
+        grade: 'gia cho 1 chuyen du lich ',
+        fees: '$700',
+        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
+    },
+    {
+        id:7,
+        imgSrc: img7,
+        destTitle: 'nha trang',
+        location: 'Viet Nam',
+        grade: 'gia cho 1 chuyen du lich ',
+        fees: '$700',
+        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
+    },
+    {
+        id:8,
+        imgSrc: img8,
+        destTitle: 'nha trang',
+        location: 'Viet Nam',
+        grade: 'gia cho 1 chuyen du lich ',
+        fees: '$700',
+        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
+    },
     // {
     //     id:9,
     //     imgSrc: img9,
