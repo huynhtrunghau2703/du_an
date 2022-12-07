@@ -1,6 +1,6 @@
 
 import './App.css';
-import Footer from './component/footer/Footer';
+// import Footer from './component/footer/Footer';
 import Home from './component/home/Home';
 import Main from './component/main/Main';
 import NavBar from './component/navbar/NavBar';
@@ -12,7 +12,7 @@ function App() {
     <NavBar/>
      <Home/> 
     <Main/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }

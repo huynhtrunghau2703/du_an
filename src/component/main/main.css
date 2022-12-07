@@ -83,7 +83,7 @@
 }
 .icon{
     color:  var(--textColor);
-    font-size: 18px;
+    font-size: 22px;
 
 }
 .name {
@@ -119,14 +119,14 @@ small{
     -o-border-radius: 1rem;
     color: var(--white-color);
     padding: 1px 10px;
-    font-size: 11px;
+    font-size: 10px;
 }
 .price {
     font-size: 2rem;
     color: var(--blackColor);
 }
 .desc {
-     font-size: 26px;
+     font-size: 13.5px;
      color: var(--textColor);
      font-weight: 500;
 }
@@ -139,8 +139,5 @@ small{
 }
 .icon {
     align-self: center;
-    font-size: 10px;
-}
-p {
-    font-size: 25px;
+    font-size: 18px;
 }

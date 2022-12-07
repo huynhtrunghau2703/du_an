@@ -21,7 +21,7 @@ const Data  = [
         location: 'Viet Nam',
         grade: 'gia cho 1 chuyen du lich ',
         fees: '$700',
-        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!!'
+        description: 'Ban đang lên kế hoạch cho chuyến du lịch Nha Trang tự túc  của mình nhưng lại loay hoay chưa biết nên bắt đầu từ đâu? Vậy hãy cùng khám phá ngay bí kíp du lịch Nha Trang tự túc SIÊU TIẾT KIỆM sau đây để chuẩn bị tốt nhất cho chuyến đi sắp tới nhé!Let’s go!!! '
     },
     {
         id:2,

@@ -1,97 +1,82 @@
-import React from 'react';
-import './footer.css'
+import React from 'react'
+import { RiSendPlaneFill } from 'react-icons/ri'
+import { BsTwitter } from 'react-icons/bs'
+import { AiFillYoutube } from 'react-icons/ai'
+import { BsInstagram } from 'react-icons/bs'
 import video2 from '../../assets/video(2).mp4'
-import {FiSend} from 'react-icons/fi'
+import { FaTripadvisor } from 'react-icons/fa'
+import './footer.css';
 const Footer = () => {
   return (
-  
-        //    <section className='footer'>
-        //     <div className="videoDiv">
-        //     <video src={video2}  muted autoPlay loop type="video2/mp4"></video>        
-        //         </div>
-           
-        //    <div className="secContent container">
-        //         <div className="contactDiv flex">
-        //             <div className="text">
-        //                 <span>keep in touch</span>
-        //                 <h2>travel with u</h2>
-        //             </div>
-        //             <div className="onputDiv flex">
-        //                     <input type="text" placeholder='enter eamil addre' />
-        //                     <button className='btn flex' type='submit'>
-        //                          <FiSend className='icon' />
-        //                     </button>
-        //             </div>
-        //         </div>
-        //    </div>
-        //    </section>
-                        <footer className="footer-07">
-                <div className="container">
-                    <div className="row justify-content-center">
-                    <div className="col-md-12 text-center">
-                        <h2 className="footer-heading">
-                        <a href="#" className="logo">
-                           Trung Hau
-                        </a>
-                        </h2>
-                        <p className="menu">
-                        <a href="#">Home</a>
-                        <a href="#">Agent</a>
-                        <a href="#">About</a>
-                        <a href="#">Listing</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
-                        </p>
-                        <ul className="ftco-footer-social p-0">
-                        <li className="ftco-animate">
-                            <a
-                            href="#"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Twitter"
-                            >
-                            <span className="ion-logo-twitter" />
-                            </a>
-                        </li>
-                        <li className="ftco-animate">
-                            <a
-                            href="#"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Facebook"
-                            >
-                            <span className="ion-logo-facebook" />
-                            </a>
-                        </li>
-                        <li className="ftco-animate">
-                            <a
-                            href="#"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Instagram"
-                            >
-                            <span className="ion-logo-instagram" />
-                            </a>
-                        </li>
-                        </ul>
-                    </div>
-                    </div>
-                    <div className="row mt-5">
-                    <div className="col-md-12 text-center">
-                        <p className="copyright">
-                        Copyright © All rights reserved | This template is made with{" "}
-                        <i className="ion-ios-heart" aria-hidden="true" /> by{" "}
-                        <a href="https://colorlib.com" target="_blank">
-                            Trung Hau
-                        </a>
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                </footer>
+    <div >
+      <div className='vado'>
+      <video src={video2}  muted autoPlay loop ></video>
+      </div>
+      <section className='sec33'>
+      <div className='seccontent container'>
+        <div className='content '>
+          <small >KEEP IN TOUSH</small>
+          <h2>Travel with us</h2>
+        </div>
+        <div className='gg flex'>
+          <input type="text" placeholder='Enter Email Address....'/>
+          <button className='btn flex'>SEND <RiSendPlaneFill className='ico'/> </button>
+        </div>
+      </div>
 
-        );
-    }
+      <section className='sec1 container'>
+        <div className='sec2'>
+          <h2>Travel</h2>
+          <p>lorem ipsum dolor sit amet. consecteture adipisicing elit. ulllam
+            <br/>
+            inventore eas fugo hic cum valuptatem minima. tempore non adio 
+            <br/>
+            provident nobis ipsam at. doloremque sed cupiditate ipsum in. atque
+            <br/>
+            soluta?
+          </p>
+          <div className='sec5'>
+            <BsTwitter className='icon'/>
+            <AiFillYoutube className='icon'/>
+            <BsInstagram className='icon'/>
+            <FaTripadvisor className='icon'/>
+          </div>
+        </div>
+      <section className='sec66'>
+      <div className='sec55' style={{marginRight: "40px"}}>
+          <h5>OUR AGENCY</h5>
+          <p>>Services</p>
+          <p>>Instagram</p>
+          <p>>Agency</p>
+          <p>>Tourism</p>
+          <p>>payment</p>
+        </div>
+        <div className='sec55' style={{marginRight: "20px"}}>
+          <h5>PropTypes</h5>
+          <p>>Booking</p>
+          <p>>Rentaicar</p>
+          <p>>HostlWorld</p>
+          <p>>Trivago</p>
+          <p>>TripAdvisr</p>
+        </div>
+        <div className='sec55' >
+          <h5>LEST MINUTE</h5>
+          <p>>London</p>
+          <p>>indonesia</p>
+          <p>>Europe</p>
+          <p>>Oceanig</p>
+        </div>
+      </section>
+      
+      </section>
+      <div className='vv container'>
+        <h5>BEST TRAVEL WEBSITE THEME</h5>
+        <h5>COPYRIGHTS RESERVED-AHMED OSAMA 2022</h5>
+      </div>
+      </section>
+     
+    </div>
+  )
+}
 
-
-export default Footer;
+export default Footer
