@@ -9,9 +9,9 @@ Travel Application by displying cards destinations
 [![Html][Html.com]][Html-url]
 [![Css][Css.com]][Css-url]
 
-## Du An Chua Hoan Chinh
+## Dự Án Chưa Hoàn Chỉnh
 
-[Demo Live 🧳](https://duan-af900.web.app/)
+[Xem Demo 🧳](https://duan-af900.web.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [React.com]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
